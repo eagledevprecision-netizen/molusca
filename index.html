@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mollusca • Natural Food Scanner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        :root {
+            --forest: #0f3d1f;
+            --leaf: #4ade80;
+            --earth: #854d0e;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        .hero-bg {
+            background-image: linear-gradient(rgba(15, 61, 31, 0.85), rgba(15, 61, 31, 0.85)), url('https://picsum.photos/id/1015/2000/1200');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .scan-frame {
+            border: 4px solid #4ade80;
+            box-shadow: 0 0 40px rgba(74, 222, 128, 0.5);
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .leaf {
+            animation: sway 4s ease-in-out infinite;
+        }
+        
+        @keyframes sway {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+    </style>
+</head>
+<body class="bg-[#0a120f] text-white">
+    <!-- Navbar -->
+    <nav class="bg-[#0f3d1f]/90 backdrop-blur-md fixed w-full z-50 border-b border-[#4ade80]/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#4ade80] to-[#22c55e] rounded-2xl flex items-center justify-center text-2xl shadow-lg">🌿</div>
+                <div>
+                    <span class="font-bold text-3xl tracking-tight">mollusca</span>
+                    <span class="text-xs text-[#4ade80] block -mt-1">healthy life</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-8 text-sm">
+                <a href="#" onclick="navigateTo('home')" class="hover:text-[#4ade80] transition-colors">Home</a>
+                <a href="#" onclick="navigateTo('scanner')" class="hover:text-[#4ade80] transition-colors">Scanner</a>
+                <a href="#" onclick="navigateTo('tips')" class="hover:text-[#4ade80] transition-colors">Health Tips</a>
+                <a href="#" onclick="navigateTo('recipes')" class="hover:text-[#4ade80] transition-colors">Recipes</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="toggleDarkMode()" 
+                        class="p-3 rounded-2xl hover:bg-white/10 transition-colors">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button onclick="showProfile()" 
+                        class="flex items-center gap-2 bg-[#4ade80] text-black px-5 py-2.5 rounded-3xl font-medium hover:bg-[#22c55e]">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="max-w-3xl mx-auto">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-6 py-2 rounded-3xl mb-6">
+                    <span class="text-[#4ade80] text-xl">🌱</span>
+                    <span class="text-sm tracking-widest uppercase">Your Forest Guardian</span>
+                </div>
+                <h1 class="text-7xl md:text-8xl font-bold leading-none mb-6">
+     
+... Enter<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mollusca • Natural Food Scanner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:wght@700&amp;display=swap');
+        
+        :root {
+            --forest: #0f3d1f;
+            --leaf: #4ade80;
+            --earth: #854d0e;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+        }
+        
+        .hero-bg {
+            background-image: linear-gradient(rgba(15, 61, 31, 0.85), rgba(15, 61, 31, 0.85)), url('https://picsum.photos/id/1015/2000/1200');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .scan-frame {
+            border: 4px solid #4ade80;
+            box-shadow: 0 0 40px rgba(74, 222, 128, 0.5);
+        }
+        
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+        
+        .leaf {
+            animation: sway 4s ease-in-out infinite;
+        }
+        
+        @keyframes sway {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+    </style>
+</head>
+<body class="bg-[#0a120f] text-white">
+    <!-- Navbar -->
+    <nav class="bg-[#0f3d1f]/90 backdrop-blur-md fixed w-full z-50 border-b border-[#4ade80]/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-[#4ade80] to-[#22c55e] rounded-2xl flex items-center justify-center text-2xl shadow-lg">🌿</div>
+                <div>
+                    <span class="font-bold text-3xl tracking-tight">mollusca</span>
+                    <span class="text-xs text-[#4ade80] block -mt-1">healthy life</span>
+                </div>
+            </div>
+            <div class="flex items-center gap-8 text-sm">
+                <a href="#" onclick="navigateTo('home')" class="hover:text-[#4ade80] transition-colors">Home</a>
+                <a href="#" onclick="navigateTo('scanner')" class="hover:text-[#4ade80] transition-colors">Scanner</a>
+                <a href="#" onclick="navigateTo('tips')" class="hover:text-[#4ade80] transition-colors">Health Tips</a>
+                <a href="#" onclick="navigateTo('recipes')" class="hover:text-[#4ade80] transition-colors">Recipes</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="toggleDarkMode()" 
+                        class="p-3 rounded-2xl hover:bg-white/10 transition-colors">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button onclick="showProfile()" 
+                        class="flex items-center gap-2 bg-[#4ade80] text-black px-5 py-2.5 rounded-3xl font-medium hover:bg-[#22c55e]">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="max-w-3xl mx-auto">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-6 py-2 rounded-3xl mb-6">
+                    <span class="text-[#4ade80] text-xl">🌱</span>
+                    <span class="text-sm tracking-widest uppercase">Your Forest Guardian</span>
+                </div>
+                <h1 class="text-7xl md:text-8xl font-bold leading-none mb-6">
+     
+... Enter
